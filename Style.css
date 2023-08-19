@@ -1,0 +1,54 @@
+header {
+    position: relative; 
+}
+
+.top-menu {
+    background-color: #ca2d80; /* Background color for the menu */
+    text-align: center;
+}
+
+.top-menu ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.top-menu li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 40px; /* Add spacing between menu items */
+}
+
+.top-menu a {
+    text-decoration: none; /* Remove underlines from links */
+    color: #fff; /* Text color for links */
+    font-weight: bold;
+    font-size: large;
+    padding-top: 0;
+    padding-bottom: 8px;
+margin: 0;
+    line-height: 4; /* Adjust line-height to control the height of the menu items */
+}
+
+.banner-card{
+    position: relative;
+    
+}
+
+.banner-card img{
+    max-width: 100%;
+    height:auto;
+
+}
+
+.banner-text{
+position: absolute;
+top: 25%;
+color:#000000;
+padding: 10px;
+}
+
+
+.banner-text h4{
+    font size: 30px;
+}
+
