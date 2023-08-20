@@ -23,30 +23,95 @@ header {
     color: #fff; /* Text color for links */
     font-weight: bold;
     font-size: large;
+    font-family: sans-serif;
     padding-top: 0;
-    padding-bottom: 8px;
-margin: 0;
+    padding-bottom: 0px;
+margin: 20px;
     line-height: 4; /* Adjust line-height to control the height of the menu items */
 }
 
 .banner-card{
     position: relative;
-    
+    margin: 0px;
 }
 
 .banner-card img{
     max-width: 100%;
     height:auto;
-
 }
 
 .banner-text{
 position: absolute;
 top: 25%;
-color:#000000;
-padding: 10px;
+color:#ffffff;
+padding-left: 5%;
 }
 
 .banner-text h4{
-font size: 30px;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.banner-text p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ca2d80;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-family: sans-serif;
+}
+
+.button:hover {
+    background-color: #af246e;
+}
+
+.card {
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    background-color: #dadada;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row; /* Ensure the content and image are side by side */
+    align-items: center;
+}
+
+.card-text {
+    text-align: left;
+    padding: 20px; /* Adjust the padding as needed */
+    padding-left: 10%;
+    padding-right: 10%;
+    flex: 1; /* Allow the text content to grow and fill the remaining space */
+}
+
+.card-text h2{
+    font-size: xx-large;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.card-text p{
+    font-size: medium;
+    font-family: sans-serif;
+}
+
+.card img {
+    height: auto;
+    transform: scale(0.7);
+    margin-left: auto; /* Push the image to the right */
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column; /* Stack content vertically on smaller screens */
+    }
 }
